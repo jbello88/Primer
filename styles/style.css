@@ -33,17 +33,11 @@ button {
 
 .titlebar .logoContainer {
   min-width: 240px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .titlebar .logo {
   height: 80px;
   margin-left: 35px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .titlebar .navtop {
@@ -62,8 +56,9 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .titlebar .titleText {
@@ -100,12 +95,12 @@ button {
 }
 
 .content .item img {
-  width: 30%;
+  width: 40%;
 }
 
 .content .item .blog {
   margin: 20px;
-  width: 70%;
+  width: 60%;
 }
 
 .content div:nth-child(even) img {
