@@ -1,1 +1,147 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", verdana, helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: white;
+  color: #454f59;
+}
+
+button {
+  background-color: #1b7e1b;
+  color: #f3eee5;
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.titlebar {
+  background-color: #e2d8c3;
+  padding: 20px 20px 10px 20px;
+}
+
+.titlebar .logoContainer {
+  min-width: 240px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titlebar .logo {
+  height: 80px;
+  margin-left: 35px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.titlebar .navtop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titlebar .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.titlebar .titleText {
+  width: 85%;
+}
+
+.titlebar .titleText h1 {
+  text-align: center;
+  font-size: 53px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content {
+  width: 85%;
+  padding: 20px;
+}
+
+.content .item {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.content .item img {
+  width: 30%;
+}
+
+.content .item .blog {
+  margin: 20px;
+  width: 70%;
+}
+
+.content div:nth-child(even) img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.content div:nth-child(even) .blog {
+  margin: 20px 20px 20px 0px;
+}
+
+.navside {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 260px;
+  background-color: #f3eee5;
+}
+
+.navfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e2d8c3;
+}
+/*# sourceMappingURL=style.css.map */
