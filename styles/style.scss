@@ -1,9 +1,10 @@
 $background: rgb(247, 248, 246);
 $font: "Open Sans", verdana, helvetica, sans-serif;
-$baseFontSize: 18px;
+$baseFontSize: 16px;
 $outsidePadding: 20px;
 $headerFooterBackground: rgb(226, 216, 195);
 $color: rgb(69, 79, 89);
+$buttonColor: rgb(27, 126, 27);
 
 * {
   box-sizing: border-box;
@@ -22,7 +23,7 @@ body {
 }
 
 button {
-  background-color: rgb(27, 126, 27);
+  background-color: $buttonColor;
   color: lighten($headerFooterBackground, 10%);
   border: none;
   height: 40px;
@@ -30,6 +31,11 @@ button {
   margin: 10px;
   font-size: ($baseFontSize + 2px);
   border-radius: 4px;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: lighten($buttonColor, 10%);
+  }
 }
 
 .titlebar {
